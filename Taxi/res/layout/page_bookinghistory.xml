@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<include 
+	    android:id="@+id/pageheader"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    layout="@layout/page_info"/>
+
+	<ListView
+	    android:id="@+id/pastBooking"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/pageheader"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="2dp" >
+	</ListView>
+	
+</RelativeLayout>

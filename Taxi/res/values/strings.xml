@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">TaxiForSure</string>
+	<string name="details">Ride Info</string>
+	<string name="history">Booking History</string>
+	
+	
+</resources>
